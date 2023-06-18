@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: url(login.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: orange;
+    font-size: 30px;
+    font-family: cursive;
+    padding: 10px;
+    float: left;
+    margin-left: -65px;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul ol {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+
+ul ol a {
+    text-decoration: none;
+    color: rgb(250, 250, 247);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul ol a:hover {
+    color: orange;
+}
+
+.search {
+    margin-top: 27px;
+    float: right;
+}
+
+.srch {
+    color: rgb(252, 250, 250);
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 20px;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.btn {
+    font-weight: bold;
+    height: 23px;
+    width: 50px;
+    background: orange;
+    border-radius: 3px;
+    color: white;
+    border: 2px solid orange;
+}
+
+.login {
+    background: transparent;
+    color: white;
+    top: 25%;
+    left: 70%;
+    position: absolute;
+    width: 280px;
+    height: 340px;
+    background-color: rgb(5, 4, 4);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    margin-left: 33px;
+}
+
+.login h1 {
+    padding: 10px;
+    margin-top: 14px;
+    padding-left: 9px;
+    background-color: orange;
+    height: 30px;
+    width: 65%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login input {
+    width: 90%;
+    margin-bottom: 18px;
+    border-radius: 4px;
+    height: 20px;
+    border: 2px rgb(245, 244, 244) double;
+}
+
+.login input[type="text"],
+input[type="password"] {
+    border: none;
+    background: transparent;
+    border-bottom: 2px white double;
+    height: 24px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    background: black;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+
+.login input[type="submit"]:hover {
+    cursor: pointer;
+    background: orange;
+    color: black;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    border: 2px white double;
+    padding: 5px;
+}
+
+.login a:hover {
+    color: orange;
+}
+
+.content {
+    position: absolute;
+    top: 37%;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
+
+.content1 {
+    color: orange;
+    font-size: 50px;
+}
+
+.join {
+    background: orange;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.join a {
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.join :hover {
+    background: orange;
+    color: rgb(250, 250, 250);
+}
+

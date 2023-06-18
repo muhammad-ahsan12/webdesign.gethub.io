@@ -1,0 +1,47 @@
+* {
+          margin: 0;
+          padding: 0;
+}
+.main{
+          background: black;
+}
+
+.name {
+          background-color: green;
+          margin-left: 10px;
+          margin-right: 10px;
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 50px;
+          font-weight: bold;
+          color: white;
+          padding: 15px;
+          border-radius: 5px;
+
+}
+.paragraph{
+          color: white;
+          font-size: 18px;
+          text-align: justify;
+          padding: 20px;
+          margin-right: 110px;
+}
+.head{
+          font-size: 18px;
+          color: white;
+          text-align: justify;
+          margin-right: 110px;
+          margin-left: 20px;
+}
+.last{
+          color: blue;
+          font-size: 22px;
+          font-weight: bold;
+          font-family: 'Times New Roman', Times, serif;
+}
+.par{
+          color: white;
+          font-size: 18px;
+          text-align: justify;
+          padding: 20px;
+          margin-right: 110px;
+}

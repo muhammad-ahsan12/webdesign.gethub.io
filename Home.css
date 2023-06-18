@@ -1,0 +1,43 @@
+*{
+          padding: 0;
+          margin: 0;
+}
+.main{
+          background-color: rgb(5, 4, 4);
+
+}
+.name{
+
+          background-color: rgb(7, 238, 7);
+          margin-left: 10px;
+          top: 10px;
+          border-radius: 5px;
+          padding: 15px;
+          font-size: 40px;
+          margin: 10px;
+          color: aliceblue;
+ 
+
+
+}
+.paragraph{
+          color: white;
+          font-size: 18px;
+          margin-right: 110px;
+          text-align: justify;
+          padding-left: 20px;
+
+
+}
+.last{
+          color: blue;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          
+}
+#heading{
+          color: rgb(8, 179, 247);
+          padding-left: 10px;
+
+}

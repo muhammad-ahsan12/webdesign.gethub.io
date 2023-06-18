@@ -1,0 +1,33 @@
+*{
+          margin: 0;
+          padding: 0;
+}
+
+.about{
+          background-color: black;
+}
+
+.name{
+          font-size: 40px;
+          font-family: 'Courier New', Courier, monospace;
+          font-weight: bold;
+          color: blue;
+          background-color: green;
+          margin-left: 10px;
+          margin-right: 10px;
+          padding: 10px;
+          border-radius: 5px;
+}
+.paragraph{
+          text-align: justify;
+          background-color: black;
+          color: white;
+          padding: 20px;
+          margin-right: 100px;
+          font-size: 18px;
+
+}
+.head:hover{
+          color: blue;
+          background-color: red;
+}
